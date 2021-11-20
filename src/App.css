@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.size{
+  font-size: 20px;
+}
+/* css */
+.btn-location{
+  background-color: transparent;
+  border: none;
+}
+.location-btn{
+  background-color:rgb(255, 255, 255);
+  border: none;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  top: 85%;
+  left: 95%;
+}
+.reload-btn{
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  position: absolute;
+  top: 90%;
+  left: 95%;
+  font-size: 20px;
+}
+.card-size{
+   width: 210px;
+   height: 21rem;
+}
+.color-fa{
+  color: goldenrod;
+}
+.pin{
+  cursor: pointer;
+  color: #f15a14;
+  z-index: -100;
+}
+.user-pin{
+  color: #7238a8;
+  cursor: pointer;
+}
+.popup-size{
+  height: 13rem;
+  z-index: 222;
+}
+.position{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.over{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100% ;
+  background-color: rgba(0, 0, 0, 0.11);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-btn{
+  position: absolute;
+  top: 5%;
+  right: 2%;
+}
+.modal-bg{
+  background-color:rgb(245, 245, 245);
+}
+.spinner-div{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #00000044;
+}
